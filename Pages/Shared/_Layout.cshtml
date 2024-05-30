@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Pagos y colegiaturas UDLAP</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/pagosycolegiaturas.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/lib/pofoTheme/css/animate.css" />
+
+    <link rel="stylesheet" href="~/lib/pofoTheme/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/pofoTheme/css/et-line-icons.css" />
+    <link rel="stylesheet" href="~/lib/pofoTheme/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="~/lib/pofoTheme/css/themify-icons.css" />
+    <link rel="stylesheet" href="~/lib/pofoTheme/css/swiper.min.css" />
+    <link rel="stylesheet" href="~/lib/pofoTheme/css/justified-gallery.min.css" />
+    <link rel="stylesheet" href="~/lib/pofoTheme/css/magnific-popup.css" />
+    <link rel="stylesheet" type="text/css" href="~/lib/pofoTheme/revolution/css/settings.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="~/lib/pofoTheme/revolution/css/layers.css" />
+    <link rel="stylesheet" type="text/css" href="~/lib/pofoTheme/revolution/css/navigation.css" />
+    <link rel="stylesheet" href="~/lib/pofoTheme/css/bootsnav.css" />
+    <link rel="stylesheet" href="~/lib/pofoTheme/css/style.css" />
+    <link rel="stylesheet" href="~/lib/pofoTheme/css/responsive.css" />
+    <link rel="stylesheet" href="~/lib/pofoTheme/css/generico.css" />
+    <link rel="stylesheet" href="~/lib/pofoTheme/css/elige-udlap.css" />
+</head>
+<body>
+    <header>
+        <!-- start navigation -->
+
+        <nav class="navbar navbar-default bootsnav background-white header-light navbar-scroll-top navbar-expand-lg">
+            <div class="container nav-header-container">
+                <!-- start logo -->
+                <div class="col-auto pl-lg-0 center-logo">
+                    <a href="/" title="Universidad de las Américas Puebla" class="logo"><img src="/images/logo.png" asp-append-version="true" data-rjs="/images/logo.png" class="logo-dark default" alt="Universidad de las Américas Puebla" /><img src="/images/logo.png" data-rjs="/images/logo.png" alt="Universidad de las Américas Puebla" class="logo-light" /></a>
+                </div>
+                <!-- end logo -->
+                <div class="col accordion-menu pr-0 pr-md-3">
+                    <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbar-collapse-toggle-1">
+                        <span class="sr-only">toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="navbar-collapse collapse justify-content-between" id="navbar-collapse-toggle-1">
+                        <ul class="nav navbar-nav alt-font text-normal width-40 md-width-100 sm-text-left justify-content-end" data-in="fadeIn" data-out="fadeOut">                           
+                            <li class="dropdown megamenu-fw">
+                                <a href="#">Cuotas</a>
+                            </li>
+
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right no-margin alt-font text-normal width-40 md-width-100 justify-content-start" data-in="fadeIn" data-out="fadeOut">
+                            <li class="dropdown megamenu-fw">
+                                <a href="#">Planes de pago</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-auto pr-lg-0">
+                    @*<div class="header-searchbar">
+                        <a href="#search-header" class="header-search-form"><i class="fas fa-search search-button"></i></a>
+                       
+                        <form id="search-header" method="get" action="https://www.udlap.mx/search/search.aspx" name="search-header" class="mfp-hide search-form-result">
+                            <div class="search-form position-relative">
+                                <input type="hidden" name="hl" value="es" />
+                                <input type="hidden" name="sitesearch" value="www.udlap.mx" />
+                                <input type="hidden" name="domains" value="www.udlap.mx" />
+                                <input type="hidden" name="url" value="<%=url%>" />
+                                <button type="submit" class="fas fa-search close-search search-button"></button>
+                                <input type="text" name="q" id="Text1" class="search-input" placeholder="Palabras de búsqueda" autocomplete="off" />
+                            </div>
+                        </form>
+                    </div>*@
+                </div>
+            </div>
+        </nav>
+
+        <!-- end navigation -->
+    </header>
+    <div class="container-fluid">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="footer-standard-dark bg-extra-dark-gray">
+        <%--<div class="footer-widget-area padding-five-tb sm-padding-30px-tb">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-md-6 widget border-right border-color-medium-dark-gray md-no-border-right md-margin-30px-bottom sm-text-center">
+
+                        <a href="/" class="margin-20px-bottom d-inline-block">
+                            <img class="footer-logo" src="/images/logo.png" data-rjs="/images/logo.png" alt="Maestrías UDLAP - logo" />
+                        </a>
+
+                        <div class="spacer-20"></div>
+
+
+                        @*<a href="https://api.whatsapp.com/send?phone=5212223569933" target="_blank" class="c-color-orange">
+                            <img src="/assets/img/logo-whatsapp.png" alt="WhatsApp Maestrías UDLAP" class="img-fluid" /> (+52) 222 356 9933
+                        </a>*@
+
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 widget border-right border-color-medium-dark-gray padding-45px-left md-padding-15px-left md-no-border-right md-margin-30px-bottom text-md-left">
+                        <div class="widget-title alt-font text-small c-color-orange text-uppercase margin-10px-bottom font-weight-600">Mapa del sitio</div>
+                        <ul class="p-0 list-style-3">
+                            <li><a class="c-link-white" href="#"><span class="c-font-12">Costos y cuotas</span></a></li>
+                            <li><a class="c-link-white" href="#"><span class="c-font-12">Reembolsos</span></a></li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 widget border-right border-color-medium-dark-gray padding-45px-left md-padding-15px-left md-clear-both md-no-border-right sm-margin-30px-bottom text-md-left">
+
+                        <div class="spacer-30"></div>
+                        <ul class="p-0 list-style-3">
+                            <li><a class="c-link-white" href="#"><span class="c-font-12">Fechas de pago</span></a></li>
+                            <li><a class="c-link-white" href="#"><span class="c-font-12">Formas de pago</span></a></li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 widget padding-45px-left md-padding-15px-left text-md-left">
+
+                        <div class="spacer-30"></div>
+                        <ul class="p-0 list-style-3">
+                            <li><a class="c-link-white" href="#"><span class="c-font-12">Facturación</span></a></li>
+                            <li><a class="c-link-white" href="#"><span class="c-font-12">Ubicación</span></a></li>
+                            
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>--%>
+        <div class="bg-dark-footer padding-50px-tb text-center sm-padding-30px-tb">
+            <div class="container">
+                <div class="row">
+                    <!-- start copyright -->
+                    <div class="col-md-12 text-md-left text-small text-center c-color-white">
+                        © Derechos Reservados © 2024 | Universidad de las Américas Puebla. Ex hacienda Sta. Catarina Mártir S/N. San Andrés Cholula, Puebla. C.P. 72810. México
+                        Conmutador: +52 222 229 20 00 | Admisiones: <a href="mailto:ingreso.posgrados@udlap.mx" class="c-link-orange" target="_blank">ingreso.posgrados@udlap.mx</a> +52 222 229 2313
+                        | <a href="https://www.udlap.mx/privacidad/" class="c-link-orange" target="_blank">Aviso de privacidad</a>.
+                    </div>
+                    <!-- end copyright -->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

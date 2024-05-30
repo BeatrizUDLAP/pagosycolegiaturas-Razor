@@ -1,0 +1,757 @@
+﻿body {
+}
+.bg-deep-verdeAztecas {
+    background-color: #133f2f;
+}
+.bg-deep-verde2
+{
+    background-color: #00502f;
+    }
+.bg-deep-orange {
+    background-color: #f47b20;
+}
+.bg-deep-green {
+    background-color: #408034;
+}
+
+body {
+}
+
+.txt-edah {
+    color: #a1861f;
+}
+
+.txt-edcs {
+    color: #e7844d;
+}
+
+.txt-edec {
+    color: #019995;
+}
+
+.txt-edei {
+    color: #50b14c;
+}
+
+.txt-edne {
+    color: #ecb221;
+}
+
+.tab-style2 .nav-tabs li.bg-edah {
+    border-bottom: 5px solid #a1861f;
+}
+
+.tab-style2 .nav-tabs li.bg-edcs {
+    border-bottom: 5px solid #e7844d;
+}
+
+.tab-style2 .nav-tabs li.bg-edec {
+    border-bottom: 5px solid #019995;
+}
+
+.tab-style2 .nav-tabs li.bg-edei {
+    border-bottom: 5px solid #50b14c;
+}
+
+.tab-style2 .nav-tabs li.bg-edne {
+    border-bottom: 5px solid #ecb221;
+}
+
+.padding-conoce {
+    padding: 20px 20px;
+}
+
+
+ul.circuloVerde {
+    list-style-type: none;
+    margin: 0 0 0 20px;
+    padding: 0;
+}
+
+    ul.circuloVerde li {
+        padding: 15px 0;
+        margin: 0;
+        background: url(/eligeudlap/assets/images/misc/BotonLicenciatura.png) no-repeat left center;
+        position: relative;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+        ul.circuloVerde li span {
+            padding-left: 25px;
+            display: table
+        }
+
+            ul.circuloVerde li span a {
+                color: #000;
+            }
+
+                ul.circuloVerde li span a:hover {
+                    color: #e34b00;
+                }
+
+/*listas por escuela*/
+/*EDAH*/
+ul.EDAH {
+    list-style-type: none;
+    margin: 0 0 0 20px;
+    padding: 0;
+}
+
+    ul.EDAH li {
+        padding: 15px 0;
+        margin: 0;
+        background: url(/eligeudlap/assets/images/misc/lista-EDAH.png) no-repeat left center;
+        position: relative;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+        ul.EDAH li span {
+            padding-left: 25px;
+            display: table
+        }
+
+            ul.EDAH li span a {
+                color: #000;
+            }
+
+                ul.EDAH li span a:hover {
+                    color: #e34b00;
+                }
+/*fin EDAH*/
+
+
+/*EDCS*/
+ul.EDCS {
+    list-style-type: none;
+    margin: 0 0 0 20px;
+    padding: 0;
+}
+
+    ul.EDCS li {
+        padding: 15px 0;
+        margin: 0;
+        background: url(/eligeudlap/assets/images/misc/lista-EDCS.png) no-repeat left center;
+        position: relative;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+        ul.EDCS li span {
+            padding-left: 25px;
+            display: table
+        }
+
+            ul.EDCS li span a {
+                color: #000;
+            }
+
+                ul.EDCS li span a:hover {
+                    color: #e34b00;
+                }
+/*fin EDCS*/
+
+/*EDEC*/
+ul.EDEC {
+    list-style-type: none;
+    margin: 0 0 0 20px;
+    padding: 0;
+}
+
+    ul.EDEC li {
+        padding: 15px 0;
+        margin: 0;
+        background: url(/eligeudlap/assets/images/misc/lista-EDEC.png) no-repeat left center;
+        position: relative;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+        ul.EDEC li span {
+            padding-left: 25px;
+            display: table
+        }
+
+            ul.EDEC li span a {
+                color: #000;
+            }
+
+                ul.EDEC li span a:hover {
+                    color: #e34b00;
+                }
+/*fin EDEC*/
+
+/*EDEI*/
+ul.EDEI {
+    list-style-type: none;
+    margin: 0 0 0 20px;
+    padding: 0;
+}
+
+    ul.EDEI li {
+        padding: 15px 0;
+        margin: 0;
+        background: url(/eligeudlap/assets/images/misc/lista-EDEI.png) no-repeat left center;
+        position: relative;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+        ul.EDEI li span {
+            padding-left: 25px;
+            display: table
+        }
+
+            ul.EDEI li span a {
+                color: #000;
+            }
+
+                ul.EDEI li span a:hover {
+                    color: #e34b00;
+                }
+/*fin EDEI*/
+
+/*EDNE*/
+ul.EDNE {
+    list-style-type: none;
+    margin: 0 0 0 20px;
+    padding: 0;
+}
+
+    ul.EDNE li {
+        padding: 15px 0;
+        margin: 0;
+        background: url(/eligeudlap/assets/images/misc/lista-EDNE.png) no-repeat left center;
+        position: relative;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+        ul.EDNE li span {
+            padding-left: 25px;
+            display: table
+        }
+
+            ul.EDNE li span a {
+                color: #000;
+            }
+
+                ul.EDNE li span a:hover {
+                    color: #e34b00;
+                }
+/*fin EDNE*/
+
+/*fin listas por escuela*/
+
+
+/*ul.circuloVerde li:last-child {
+    border-bottom: none
+}*/
+.list-lic div:last-child li {
+    border-bottom: none;
+}
+
+#box {
+    position: relative;
+    margin: 0px 200px;
+}
+
+    #box img {
+        display: block;
+    }
+
+    #box .static {
+        width: 100%;
+        height: auto;
+    }
+
+    #box .img_btn1 {
+        position: absolute;
+        top: 32.8%;
+        left: 61.5%;
+        width: -webkit-fill-available;
+        width: -moz-available;
+        width: 39%;
+        height: auto;
+    }
+
+    #box .img_btn2 {
+        position: absolute;
+        top: 71%;
+        left: 39%;
+        right: 20%;
+        width: -webkit-fill-available;
+        width: -moz-available;
+        width: 39%;
+        height: auto;
+    }
+
+    #box .img_btn3 {
+        position: absolute;
+        left: 13%;
+        top: 93%;
+        right: 52.5%;
+        width: -webkit-fill-available;
+        width: -moz-available;
+        width: 39%;
+        height: auto;
+    }
+
+    #box .text {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        color: #fff;
+        font-family: sans-serif;
+    }
+
+.swiper-button-next-style1 {
+    background-image: url(/eligeudlap/assets/images/misc/arrow-next-light-dark.png);
+    right: -4px !important;
+    border: solid 1px;
+    padding: 20px;
+    border-color: #939393;
+    background-color: #939393;
+}
+
+.swiper-button-prev-style1 {
+    background-image: url(/eligeudlap/assets/images/misc/arrow-next-light-dark.png);
+    left: -4px !important;
+    border: solid 1px;
+    padding: 20px;
+    border-color: #939393;
+    background-color: #939393;
+}
+
+.swiper-button-next-style2 {
+    background-image: url(/eligeudlap/assets/images/misc/arrow-next-light-dark.png);
+    right: 2% !important;
+    top: -10% !important;
+    border: solid 1px;
+    padding: 20px;
+    border-color: #939393;
+    background-color: #939393;
+}
+
+.swiper-button-prev-style2 {
+    background-image: url(/eligeudlap/assets/images/misc/arrow-next-light-dark.png);
+    left: 92% !important;
+    top: -10% !important;
+    border: solid 1px;
+    padding: 20px;
+    border-color: #939393;
+    background-color: #939393;
+}
+
+.swiper-button-next-style3 {
+    right: 2% !important;
+    top: -10% !important;
+    background: none !important;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px;
+    font-size: 30px;
+    border: none;
+}
+
+.swiper-button-prev-style3 {
+    left: 92% !important;
+    top: -10% !important;
+    background: none !important;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px;
+    font-size: 30px;
+    border: none;
+}
+
+    .swiper-button-prev-style3 i {
+        color: #939393;
+    }
+
+.swiper-button-next-style3 i {
+    color: #939393;
+}
+
+.card-shadow-1 {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.boxEvento {
+    /* padding: 15px; */
+    box-shadow: 0px 4px 10px 0px rgb(94 112 127 / 24%);
+    /*margin: 15px;*/
+    margin: 10px 0px;
+    min-height: 400px;
+    background: #fff;
+    height: 100%;
+}
+
+    .boxEvento img {
+        /* border-bottom: solid 1px #ff8100; */
+        border-bottom: solid 1px rgba(255, 129, 0, 0.28);
+    }
+
+    .boxEvento span {
+        font-size: 1.1em;
+    }
+
+.fechaEvento {
+    position: absolute;
+    background-color: #FAAF40;
+    /* top: 0; */
+    /* left: 0; */
+    right: 50px;
+    /* margin: 0 auto; */
+    width: 50px;
+    /* top: 43%; */
+    padding: 5px;
+    color: #fff;
+    font-weight: 700;
+    float: right;
+    margin-top: -30px;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+
+.fechaEventoMovil {
+    background-color: #f47a20;
+    font-size: 1.8em;
+    color: #fff;
+}
+
+.contenedor-notas {
+    min-height: 215px;
+}
+
+.detalleEvento {
+    background: #fff;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+.visible-lg, .visible-md, .visible-sm, .visible-xs {
+    display: none !important;
+}
+
+.tituloEvento {
+    line-height: 25px;
+}
+
+.tituloEvento {
+    font-size: 1.2em;
+    text-align: left;
+    /* margin-left: 5px; */
+    color: #de6b15;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0px 5px;
+}
+
+.descripcionEvento {
+    text-align: left;
+    padding: 0px 5px;
+    /* font-weight: 600; */
+    font-size: 1.1em;
+    color: #000;
+    text-decoration: none;
+}
+
+.section_searchbar {
+    padding-top: 0px;
+}
+
+.section_lic {
+    padding-bottom: 80px;
+}
+
+#ctl00_contenido_txtCadBuscar {
+    display: inline-flex;
+    max-width: 50%;
+    margin-right: 15px;
+}
+
+.sticky-container {
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    right: 150px;
+    bottom: 160px;
+    z-index: 1100;
+    height: auto;
+    width: 100%;
+    max-width: 80px;
+}
+
+.sticky-container2 {
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    right: 150px;
+    bottom: 100px;
+    z-index: 1100;
+    height: auto;
+    width: 100%;
+    max-width: 80px;
+}
+
+.sticky-wp {
+    background-color: #57bb63;
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+    border-top-left-radius: 28px;
+    border-bottom-left-radius: 28px;
+    padding: 0px 12px;
+    margin-right: -105px;
+    color: #fff;
+    min-height: 40px;
+    padding-left: 20px;
+    text-align: right;
+}
+
+    .sticky-wp img {
+        display: inline-block;
+    }
+
+    .sticky-wp p {
+        display: inline-block;
+        color: #fff;
+        margin: 0px;
+    }
+
+.sticky-containerBT {
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    left: -30px;
+    bottom: 0;
+    z-index: 1100;
+}
+
+.transform-nouppercase
+{
+    text-transform: none;
+    }
+
+a.text-link-white1 {
+    color: #ffffff;
+}
+
+    a.text-link-white1:hover {
+        color: #e4dada;
+        text-decoration: underline;
+    }
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .tab-content {
+        padding-top: 1200px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+
+    .altura-back-conoce {
+        height: 150px;
+    }
+
+    .swiper-button-prev-style3 {
+        left: 80% !important;
+        top: 0% !important;
+    }
+
+    .swiper-button-next-style3 {
+        top: 0% !important;
+    }
+
+    .swiper-button-next-style1 {
+        right: 5px !important;
+    }
+
+    .swiper-button-prev-style1 {
+        left: 5px !important;
+    }
+
+    .detalleEvento {
+        margin-top: 22px;
+    }
+
+    #box {
+        margin: 0px 20px;
+    }
+
+    .hidden-xs {
+        display: none !important;
+    }
+
+    .visible-xs {
+        display: block !important;
+    }
+
+    .section_lic {
+        padding-bottom: 0px;
+    }
+
+    #ctl00_contenido_txtCadBuscar {
+        display: inline-flex;
+        max-width: 100%;
+        margin-right: 0px;
+    }
+
+    .sticky-container {
+        right: 110px;
+        bottom: 20px;
+        height: auto;
+        width: 100%;
+        max-width: 60px;
+    }
+
+    .sticky-container2 {
+        right: 110px;
+        bottom: 80px;
+        height: auto;
+        width: 100%;
+        max-width: 60px;
+    }
+
+    #box .img_btn1,
+    #box .img_btn2,
+    #box .img_btn3 {
+        width: 39%;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .tab-content {
+        padding-top: 500px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+
+    .altura-back-conoce {
+        height: 180px;
+    }
+
+    .swiper-button-prev-style3 {
+        left: 80% !important;
+        top: 0% !important;
+    }
+
+    .swiper-button-next-style3 {
+        top: 0% !important;
+    }
+
+    .swiper-button-next-style1 {
+        right: 5px !important;
+    }
+
+    .swiper-button-prev-style1 {
+        left: 5px !important;
+    }
+
+    .detalleEvento {
+        margin-top: 22px;
+    }
+
+    #box {
+        margin: 0px 25px;
+    }
+
+    .hidden-xs {
+        display: none !important;
+    }
+
+    .visible-xs {
+        display: block !important;
+    }
+
+    .section_lic {
+        padding-bottom: 0px;
+    }
+
+    #ctl00_contenido_txtCadBuscar {
+        display: inline-flex;
+        max-width: 100%;
+        margin-right: 0px;
+    }
+
+    .sticky-container {
+        right: 110px;
+        bottom: 20px;
+        height: auto;
+        width: 100%;
+        max-width: 60px;
+    }
+
+    .sticky-container2 {
+        right: 110px;
+        bottom: 80px;
+        height: auto;
+        width: 100%;
+        max-width: 60px;
+    }
+
+    #box .img_btn1,
+    #box .img_btn2,
+    #box .img_btn3 {
+        width: 39%;
+    }
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .tab-content {
+        padding-top: 55px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+
+    .altura-back-conoce {
+        height: 162px;
+    }
+
+    .swiper-button-prev-style3 {
+        left: 88% !important;
+    }
+
+    .detalleEvento {
+        margin-top: 25px;
+    }
+
+    #box {
+        margin: 0px 50px;
+    }
+
+        #box .img_btn1,
+        #box .img_btn2,
+        #box .img_btn3 {
+            width: 39%;
+        }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .tab-content {
+        padding-top: 55px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+
+    .altura-back-conoce {
+        height: 113px;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .tab-content {
+        padding-top: 55px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+
+    .altura-back-conoce {
+        height: 113px;
+    }
+}
+
